@@ -208,7 +208,7 @@
 
                                     </li>
                                     <li >
-                                        <a target="_blank" href="http://portal.academiaocollege.ng/">Portal</a>
+                                        <a target="_blank" href="http://portal.csskabba.ng/">Portal</a>
 
                                     </li>
                                      <li class="dropdown">
