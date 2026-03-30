@@ -42,7 +42,7 @@
                         <p class="footer-widget-two__get-in-touch-text">13, Soyinka Street, Behind Fajol Hotel, Obantoko, Abeokuta, Ogun State.</p>
                         <div class="footer-widget-two__email-box">
                               <a href="mailto:admission@academiaocollege.ng">admission@academiaocollege.ng</a>
-                            <a href="mailto:info@academiaocollege.ng">info@academiaocollege.ng</a>
+                            <a href="mailto:info@academiaocollege.ng">info@csskabba.ng</a>
 
                         </div>
                         <ul class="footer-widget-two__social-box list-unstyled">
@@ -101,7 +101,7 @@
                 <div class="col-xl-12">
                     <div class="site-footer-two__bottom-inner">
                         <div class="site-footer-two__bottom-text">
-                            <p>Copyright© 2025 All Rights Reserved</p> <a href="www.qudroid.co">Website and Portal Developed by Qudroid </a>
+                            <p>Copyright© 2025 All Rights Reserved</p> <a href="www.qudroid.co">Developed by Qudroid </a>
                         </div>
                     </div>
                 </div>

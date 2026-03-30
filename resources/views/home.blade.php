@@ -30,7 +30,7 @@
                                 <div class="row">
                                     <div class="col-xl-12">
                                         <div class="main-slider-three__content">
-                                            <h2 class="main-slider-three__title">Welcome to Academia O College<br> </h2>
+                                            <h2 class="main-slider-three__title">Welcome to Claret Seccondary School, Kabba<br> </h2>
                                             <p class="main-slider-three__text">where innovation meets excellence
 
                                             </p>
@@ -487,7 +487,7 @@
 
             // Original Bootstrap event
             modal.on('show.bs.modal', function (event) {
-                console.log('Modal showing via BS event'); 
+                console.log('Modal showing via BS event');
                 var button = $(event.relatedTarget);
                 if (button.length) {
                     currentIndex = parseInt(button.data('index')) || 0;
