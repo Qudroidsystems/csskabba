@@ -238,7 +238,7 @@
             <!--About Three End-->
 
                 <!--Gallery Start-->
-            <section class="gallery">
+            {{-- <section class="gallery">
                 <div class="container">
                     <div class="row">
                         @foreach($images as $img)
@@ -272,11 +272,11 @@
                         @endforeach
                     </div>
                 </div>
-            </section>
+            </section> --}}
             <!--Gallery End-->
 
             <!-- Image Modal (BS4 Compatible) -->
-            <div class="modal fade" id="imageModal" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel" aria-hidden="true">
+            {{-- <div class="modal fade" id="imageModal" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -300,12 +300,12 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
 
 
 
             <!--Consulting Two Start-->
-            <section class="consulting-two">
+            {{-- <section class="consulting-two">
                 <div class="consulting-two__bg" data-jarallax data-speed="0.2" data-imgPosition="50% 0%"
                     style="background-image: url({{ asset('assets/assets/images/backgrounds/bg3.jpg')}});"></div>
                 <div class="container">
@@ -321,12 +321,12 @@
                                 </p>
                                 <div class="consulting-one__bottom">
                                     <div class="consulting-one__Strategy">
-                                        {{-- <div class="icon">
+                                        <div class="icon">
                                             <span class="icon-chart-diagram-pie"></span>
-                                        </div> --}}
-                                        {{-- <div class="text">
+                                        </div>
+                                        <div class="text">
                                             <h3>Academic Consulting & Strategy</h3>
-                                        </div> --}}
+                                        </div>
                                     </div>
                                     <div class="consulting-one__count-box">
                                         <div class="consulting-one__count">
@@ -372,14 +372,14 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> --}}
 
             <!--Consulting Two End-->
 
-            @include('layout.inc.whychooseus')
+            {{-- @include('layout.inc.whychooseus') --}}
 
             <!--Project One start-->
-            <section class="project-three">
+            {{-- <section class="project-three">
                 <div class="container">
                     <div class="project-one__top">
                         <div class="section-title text-center">
@@ -466,14 +466,14 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> --}}
             <!--Project Three End-->
 
            @include('layout.inc.counters')
 
-           @include('layout.inc.testimonials')
+           {{-- @include('layout.inc.testimonials') --}}
 
-           @include('layout.inc.team')
+           {{-- @include('layout.inc.team') --}}
 
              @push('scripts')
     <script>
