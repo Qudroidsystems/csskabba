@@ -129,7 +129,7 @@
                                         <i class="icon-email-mail"></i>
                                     </div>
                                     <div class="text">
-                                        <p><a href="mailto:academiao.mail@gmail.com">academiao.mail@gmail.com</a></p>
+                                        <p><a href="claretsecschoolkabba@gmail.com">claretsecschoolkabba@gmail.com</a></p>
                                     </div>
                                 </li>
                                 <li>
@@ -137,7 +137,7 @@
                                         <i class="icon-location"></i>
                                     </div>
                                     <div class="text">
-                                        <p>13, Soyinka Street, Behind Fajol Hotel, Obantoko, Abeokuta, Ogun State.</p>
+                                        <p>1No. 1, Iludun Quarters, Off Olle Road, Kabba, Kogi State, NIGERIA.</p>
                                     </div>
                                 </li>
                                 <li>
@@ -198,20 +198,20 @@
                                     </li>
                                         </ul>
                                     </li>
-                                    <li >
+                                    {{-- <li >
                                         <a href="{{ route('faq') }}">FAQ</a>
 
-                                    </li>
-
+                                    </li> --}}
+{{--
                                     <li >
                                         <a href="{{ route('admission') }}">Admissions</a>
 
-                                    </li>
+                                    </li> --}}
                                     <li >
                                         <a target="_blank" href="http://portal.csskabba.ng/">Portal</a>
 
                                     </li>
-                                     <li class="dropdown">
+                                     {{-- <li class="dropdown">
                                         <a href="#">Tests</a>
                                         <ul>
                                             <li><a target="_blank" href="https://iqtest.com/take-the-test/">IQ TEST </a></li>
@@ -219,7 +219,7 @@
                                              <li><a target="_blank" href="https://wayground.com">Quizzes</a></li>
                                             <li><a target="_blank" href="https://myschool.ng/classroom/exam/custom">CBT Simulator</a></li>
                                         </ul>
-                                    </li>
+                                    </li> --}}
 
 
                                 </ul>
@@ -232,11 +232,11 @@
                                         </div>
                                         <div class="main-menu__call-content">
                                             <p>Make a call</p>
-                                            <h4><a href="tel:+2347087767178">+2347087767178</a></h4>
+                                            <h4><a href="tel:+2347068421756">+2347068421756</a></h4>
                                         </div>
                                     </div>
                                     <div class="main-menu__btn-box">
-                                        <a href="tel:+2347087767178" class="main-menu__btn">Lets Talk</a>
+                                        <a href="tel:+2347068421756" class="main-menu__btn">Lets Talk</a>
                                     </div>
                                 </div>
                             </div>

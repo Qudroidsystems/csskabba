@@ -34,31 +34,40 @@
                                     <li><a href="{{ route('anthem') }}">Our School Anthem <span
                                                 class="fas fa-angle-right"></span></a></li>
 
-                                 
+
 
                                 </ul>
                             </div>
-                           
+
                         </div>
                     </div>
                     <div class="col-xl-8 col-lg-7">
                         <div class="services-details__right">
                             <h3 class="services-details__title-1">Our Vision</h3>
-                            <p class="services-details__text services-details__text-1">To become a leading institution where innovation and excellence shape confident, value-driven learners equipped to transform their world.</p>
-                            
-                           
+                            <p class="services-details__text services-details__text-1">
+                               To set the whole world on fire with God’s Love.
+                                To promote a valued-based education that will promote love and peace.
+                                Training enlightened leaders that will bring about universal respect for human value and love for humanity.
+
+                            </p>
+
+
                         </div>
 
 
                          <div class="services-details__right">
                             <h3 class="services-details__title-1">Our Mission</h3>
-                            <p class="services-details__text services-details__text-1">At Academia O College, our mission is to deliver high-quality, value-based education through modern teaching methods, character formation, and technology integration—nurturing creative, critical thinkers ready to lead in a dynamic world.</p>
-                           
+                            <p class="services-details__text services-details__text-1">
+                                    To train future leaders that will enlighten the whole human race with GOD’S love where
+                                    Justice will give birth to growth, unity, peace, love and civilisation through holistic Claretian Education.
+
+                            </p>
+
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <!--Services Details End-->
-    
+
 @endsection
