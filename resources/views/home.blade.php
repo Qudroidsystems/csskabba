@@ -122,7 +122,7 @@
                         <div class="section-title-shape">
                             <img src="{{ asset('assets/assets/images/shapes/section-title-shape-1.png')}}" alt="">
                         </div>
-                        <h2 class="section-title__title">Academia O Group of Schools</h2>
+                        <h2 class="section-title__title">Junior High School </h2>
                     </div>
                     <div class="row">
                         <!--services One single start-->
@@ -137,7 +137,11 @@
                                         <span class="icon-bulb-business-idea"></span>
                                     </div> --}}
                                 </div>
-                                <p class="services-one__text">Redefining the goal of education from the conventional, nurturing students of Year 7 to Year 9.</p>
+                                <p class="services-one__text">
+                                    The Claret Secondary School, Kabba, Kogi State, provides a strong foundation for academic excellence,
+                                     discipline, and character formation specially for their
+                                    junior students with dedicated teachers and a supportive learning environment for the future leaders.
+                                </p>
                                 <div class="services-one__btn">
                                     {{-- <a href="branding.html')}}" class="thm-btn services-three__btn">Read more<i
                                             class="icon-right-arrow1"></i></a> --}}
@@ -158,7 +162,12 @@
                                         <span class="icon-business-management-target"></span>
                                     </div> --}}
                                 </div>
-                                <p class="services-one__text">Using technology and modern tools with consistent science practicals to prepare Year 10 to Year 12 students for the task ahead.</p>
+                                <p class="services-one__text">
+                                    The Senior High School at Claret Secondary School, Kabba, Kogi State,
+                                     is dedicated to preparing students for academic success, leadership, and lifelong achievement through quality
+                                      teaching, discipline, and a well-rounded curriculum,
+                                     to equip learners with the knowledge, skills, and values needed to excel in higher education and beyond.
+                                </p>
                                 <div class="services-one__btn">
                                     {{-- <a href="#" class="thm-btn services-three__btn">Read more<i
                                             class="icon-right-arrow1"></i></a> --}}
@@ -166,26 +175,7 @@
                             </div>
                         </div>
                         <!--services One single End-->
-                        <!--services One single start-->
-                        <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="300ms">
-                            <div class="services-one__single">
-                                <div class="services-one__count"></div>
-                                <div class="services-one__content">
-                                    <div class="services-one__title">
-                                        <h3><a href="#">Prevarsity</a></h3>
-                                    </div>
-                                    {{-- <div class="services-one__icon">
-                                        <span class="icon-megaphone"></span>
-                                    </div> --}}
-                                </div>
-                                <p class="services-one__text">Preparing high school leavers for admission based examinations towards a brighter future in higher institution.</p>
-                                <div class="services-one__btn">
-                                    {{-- <a href="digital-solutions.html')}}" class="thm-btn services-three__btn">Read more<i
-                                            class="icon-right-arrow1"></i></a> --}}
-                                </div>
-                            </div>
-                        </div>
-                        <!--services One single End-->
+
                     </div>
                 </div>
             </section>
@@ -202,19 +192,25 @@
                                     <h2 class="section-title__title">Shaping minds today for a brighter tomorrow</h2>
                                 </div>
                                 <p class="about-three__text-1">
-                                    At Academia O College, we believe education is more than acquiring knowledge — it is about nurturing character, inspiring innovation, and preparing future leaders. Our commitment is to provide quality learning experiences that empower students to excel academically and socially.
+                                    Claret Secondary School, Kabba, Kogi State, Nigeria is a leading institution committed to nurturing students into responsible, knowledgeable, and morally upright citizens. Founded on strong Claretian values and a tradition of academic excellence, the school provides a holistic education that balances intellectual growth, character formation, discipline, and spiritual development.
+
+                                            At Claret Secondary School, Kabba, we believe that education goes beyond the classroom. Our mission is to create an environment where every student is encouraged to discover and develop their God-given potential. Through quality teaching, modern learning methods, and dedicated staff, we strive to equip our students with the skills and confidence needed to succeed in higher education and in life.
+                                            We take pride in fostering a safe, supportive, and disciplined atmosphere where students are guided to become future leaders, innovators, and agents of positive change in society. Our curriculum is designed to promote academic excellence, critical thinking, creativity, and social responsibility, while our extracurricular activities help students build teamwork, leadership, and personal growth.
+
+                                            Claret Secondary School, Kabba, is more than just a place of learning — it is a community where faith, knowledge, and service come together to shape well-rounded individuals who will make meaningful contributions to the nation and the world.
+
                                 </p>
                                 <div class="about-three__creativity">
                                     {{-- <div class="icon">
                                         <span class="icon-bulb-business-idea"></span>
                                     </div> --}}
-                                    <div class="text">
+                                    {{-- <div class="text">
                                         <h3>Innovatio et Excellentia</h3>
-                                    </div>
+                                    </div> --}}
                                 </div>
-                                <p class="about-three__text-2">
+                                {{-- <p class="about-three__text-2">
                                     With dedicated teachers, modern facilities, and a supportive community, Academia O College offers a balanced approach to education — blending academics, creativity, and personal development. We prepare our students not just for exams, but for life.
-                                </p>
+                                </p> --}}
                             </div>
                         </div>
                         <div class="col-xl-6">
