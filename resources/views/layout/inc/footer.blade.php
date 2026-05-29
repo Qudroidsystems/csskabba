@@ -41,15 +41,15 @@
                 <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="300ms">
                     <div class="footer-widget-two__get-in-touch">
                         <h4 class="footer-widget-two__title">Get In Touch</h4>
-                        <p class="footer-widget-two__get-in-touch-text">13, Soyinka Street, Behind Fajol Hotel, Obantoko, Abeokuta, Ogun State.</p>
+                        <p class="footer-widget-two__get-in-touch-text">No. 1, Iludun Quarters, Off Olle Road, Kabba, Kogi State, NIGERIA.</p>
                         <div class="footer-widget-two__email-box">
-                              <a href="mailto:admission@academiaocollege.ng">admission@academiaocollege.ng</a>
-                            <a href="mailto:info@academiaocollege.ng">info@csskabba.ng</a>
+                              <a href="mailto:admission@academiaocollege.ng">claretsecschoolkabba@gmail.com</a>
+                            {{-- <a href="mailto:info@academiaocollege.ng">info@csskabba.ng</a> --}}
 
                         </div>
                         <ul class="footer-widget-two__social-box list-unstyled">
                             <li>
-                                <a href="https://www.facebook.com/academiaOfb"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
                             </li>
                             <li>
                                 <a href="#"><i class="fab fa-instagram"></i></a>
@@ -116,7 +116,7 @@
 
 </div><!-- /.page-wrapper -->
 
-<div class="mobile-nav__wrapper">
+{{-- <div class="mobile-nav__wrapper">
         <div class="mobile-nav__overlay mobile-nav__toggler"></div>
         <!-- /.mobile-nav__overlay -->
         <div class="mobile-nav__content">
@@ -153,7 +153,7 @@
 
         </div>
         <!-- /.mobile-nav__content -->
-    </div>
+</div> --}}
     <!-- /.mobile-nav__wrapper -->
 
     <div class="search-popup">
