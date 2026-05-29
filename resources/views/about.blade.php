@@ -1,6 +1,6 @@
 @extends('layout.master')
 @section('content')
-         
+
 
 
         <!--Page Header Start-->
@@ -22,52 +22,70 @@
 
         <!--About Two Start-->
         <section class="about-two about-four">
-          
+
              <!--About Three Start-->
-            <section class="about-three">
+           <section class="about-three">
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-6">
                             <div class="about-three__left">
                                 <div class="section-title text-left">
-                                    <span class="section-title__tagline">ABOUT ACADEMIA O COLLEGE</span>
+                                    <span class="section-title__tagline">ABOUT Claret Secondary School</span>
                                     <h2 class="section-title__title">Shaping minds today for a brighter tomorrow</h2>
                                 </div>
                                 <p class="about-three__text-1">
-                                    At Academia O College, we believe education is more than acquiring knowledge — it is about nurturing character, inspiring innovation, and preparing future leaders. Our commitment is to provide quality learning experiences that empower students to excel academically and socially. 
+                                    Claret Secondary School, Kabba, Kogi State, Nigeria is a leading institution committed to nurturing students into responsible, knowledgeable, and morally upright citizens. Founded on strong Claretian values and a tradition of academic excellence, the school provides a holistic education that balances intellectual growth, character formation, discipline, and spiritual development.
+
+
+                                </p>
+                                 <p class="about-three__text-1">
+                                            At Claret Secondary School, Kabba, we believe that education goes beyond the classroom. Our mission is to create an
+                                             environment where every student is encouraged to discover and develop their God-given potential.
+                                              Through quality teaching, modern learning methods, and dedicated staff,
+                                             we strive to equip our students with the skills and confidence needed to succeed in higher education and in life.
+                                            We take pride in fostering a safe, supportive, and disciplined atmosphere where students are guided to become future leaders, innovators, and agents of positive change in society. Our curriculum is designed to promote academic excellence, critical thinking, creativity, and social responsibility, while our extracurricular activities help students build teamwork, leadership, and personal growth.
+
+                                            Claret Secondary School, Kabba, is more than just a place of learning — it is a community where faith, knowledge, and service come together to shape well-rounded individuals who will make meaningful contributions to the nation and the world.
+
+                                </p>
+                                 <p class="about-three__text-1">
+
+                                            Claret Secondary School, Kabba, is more than just a place of learning — it is a community where faith, knowledge, and service come together to shape well-rounded individuals who will make meaningful contributions to the nation and the world.
+
                                 </p>
                                 <div class="about-three__creativity">
                                     {{-- <div class="icon">
                                         <span class="icon-bulb-business-idea"></span>
                                     </div> --}}
-                                    <div class="text">
+                                    {{-- <div class="text">
                                         <h3>Innovatio et Excellentia</h3>
-                                    </div>
+                                    </div> --}}
                                 </div>
-                                <p class="about-three__text-2">
+                                {{-- <p class="about-three__text-2">
                                     With dedicated teachers, modern facilities, and a supportive community, Academia O College offers a balanced approach to education — blending academics, creativity, and personal development. We prepare our students not just for exams, but for life.
-                                </p>
+                                </p> --}}
                             </div>
                         </div>
                         <div class="col-xl-6">
                             <div class="about-three__right">
                                 <div class="about-three__img">
-                                    <img src="{{ asset('assets/assets/images/resources/logo.jpg')}}" alt="Academia O College Logo">
+                                    <img src="{{ asset('assets/assets/images/resources/logo.jpeg')}}" alt="Academia O College Logo">
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            
+
+
 
         </section>
         <!--About Two End-->
 
-      
+
 
         <!--Why Choose Two Start-->
-        <section class="why-choose-two why-choose-three">
+        {{-- <section class="why-choose-two why-choose-three">
              <!--Why Choose Two Start-->
             <section class="why-choose-two">
                 <div class="container">
@@ -77,9 +95,9 @@
                                 <div class="why-choose-two__img-1 wow slideInLeft" data-wow-delay="100ms"
                                     data-wow-duration="2500ms">
                                     <img src="{{ asset('assets/assets/images/resources/philip.jpg')}}" alt="">
-                                    {{-- <div class="why-choose-two__img-2">
+                                    <div class="why-choose-two__img-2">
                                         <img src="{{ asset('assets/assets/images/resources/why-choose-2-2.jpg')}}" alt="">
-                                    </div> --}}
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -93,17 +111,17 @@
                                     <h2 class="section-title__title">Introducing the School</h2>
                                 </div>
                                 <p>We are excited to announce the official commencement of Academia O College — a future-focused secondary school where academic excellence meets innovation, character, and vision.
-                                    At Academia O College, we are redefining education beyond the conventional classroom. Our mission is to nurture confident, creative, and critically-minded learners who are prepared to thrive in a fast-changing world.                        
-                                    
+                                    At Academia O College, we are redefining education beyond the conventional classroom. Our mission is to nurture confident, creative, and critically-minded learners who are prepared to thrive in a fast-changing world.
+
                                     <p>Whether day or boarding, your child deserves more than the average.
-                                        They deserve a place where their dreams are not only heard — but nurtured. 
+                                        They deserve a place where their dreams are not only heard — but nurtured.
                                         That place is Academia O College.
                                     The future begins here!</p>
                                 </p>
-                                {{-- <h3 class="why-choose-two__title">Why Choose Academia O College?
+                                <h3 class="why-choose-two__title">Why Choose Academia O College?
                                 </h3>
-                                --}}
-                                {{-- <div class="why-choose-two__points-box">
+
+                                <div class="why-choose-two__points-box">
                                     <ul class="why-choose-two__points list-unstyled">
                                         <li>
                                             <div class="icon">
@@ -142,7 +160,7 @@
                                     <div class="why-choose-two__icon-box">
                                         <span class="icon-business-management-presentation"></span>
                                     </div>
-                                </div> --}}
+                                </div>
                                 <h3 class="testimonial-one__client-name">Mr Philip Oklu</h3>
                                 <p>BSc., MSc., PhD***</p>
                                 <p>The Director</p>
@@ -152,11 +170,11 @@
                 </div>
             </section>
             <!--Why Choose Two End-->
-        </section>
+        </section> --}}
         <!--Why Choose Two End-->
 
         <!--Counter Two Start-->
-        <section class="counter-two">
+        {{-- <section class="counter-two">
               <!--Counter Two Start-->
             <section class="counter-two">
                 <div class="container">
@@ -205,14 +223,14 @@
                 </div>
             </section>
             <!--Counter Two End-->
-        </section>
+        </section> --}}
         <!--Counter Two End-->
 
 
-      
+
 
         <!--Testimonial Two Start-->
-        <div class="testimonial-two">
+        {{-- <div class="testimonial-two">
                    <!--Testimonial One Start-->
                     <section class="testimonial-one">
                         <div class="testimonial-one__shape-1 float-bob-x">
@@ -264,14 +282,14 @@
                                                     </div>
                                                 </div>
                                                 <div class="testimonial-one__client-info-box">
-                                                    <p class="testimonial-one__text">“I am proud to say that I was once a 
-                                                        student of Academia O Prevarsity while I was in Nigeria 
-                                                        and the experience shaped my academic journey in ways 
-                                                        I will forever talk about. The citadel of learning 
-                                                        provided me with not just knowledge, but also confidence, 
+                                                    <p class="testimonial-one__text">“I am proud to say that I was once a
+                                                        student of Academia O Prevarsity while I was in Nigeria
+                                                        and the experience shaped my academic journey in ways
+                                                        I will forever talk about. The citadel of learning
+                                                        provided me with not just knowledge, but also confidence,
                                                         and skills I needed to excel in my studies and beyond.
-                                                        I wholeheartedly recommend Academia O College 
-                                                        to anyone who is serious about building a strong 
+                                                        I wholeheartedly recommend Academia O College
+                                                        to anyone who is serious about building a strong
                                                         academic future. It is a place where dreams are
                                                         nurtured, and success begins.
                                                         ”</p>
@@ -334,12 +352,12 @@
                                                     </div>
                                                 </div>
                                                 <div class="testimonial-one__client-info-box">
-                                                    <p class="testimonial-one__text">“As a Pharmacy Student of University 
-                                                        of Lagos, this is my heartfelt recommendation for 
-                                                        Academia O College! As a former student 
-                                                        of Academia O Pre-varsity, I'm grateful for 
+                                                    <p class="testimonial-one__text">“As a Pharmacy Student of University
+                                                        of Lagos, this is my heartfelt recommendation for
+                                                        Academia O College! As a former student
+                                                        of Academia O Pre-varsity, I'm grateful for
                                                         the foundation that shaped my academic journey.
-                                                        I wholeheartedly recommend this esteemed institution 
+                                                        I wholeheartedly recommend this esteemed institution
                                                         to anyone seeking quality education. Highly recommended!
                                                         ”</p>
                                                     <div class="testimonial-one__client-info">
@@ -369,15 +387,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="testimonial-one__client-info-box">
-                                                    <p class="testimonial-one__text">“I am an ex-student of Academia O Pre-varsity 
+                                                    <p class="testimonial-one__text">“I am an ex-student of Academia O Pre-varsity
                                                         and I can say proudly and confidently that Academia O Prevarsity
                                                         really helped to transform my academic journey into what it is today.
                                                         I went from being an average student in my class to being one of
-                                                        the top students. I was only able to achieve this 
+                                                        the top students. I was only able to achieve this
                                                             help of the solid teaching sessions and unwavering support
-                                                            provided for me. This is why I’m recommending 
-                                                            O College to everyone out there because it’s 
-                                                            your best shot at getting a 
+                                                            provided for me. This is why I’m recommending
+                                                            O College to everyone out there because it’s
+                                                            your best shot at getting a
                                                             solid education of your money’s worth.
                                                         ”</p>
                                                     <div class="testimonial-one__client-info">
@@ -408,31 +426,31 @@
                                                     </div>
                                                 </div>
                                                 <div class="testimonial-one__client-info-box">
-                                                    <p class="testimonial-one__text">“As an alumnus of Academia O, I can confidently say that my time there 
+                                                    <p class="testimonial-one__text">“As an alumnus of Academia O, I can confidently say that my time there
                                                         was one of the most
                                                         transformative experiences of my life. When I first joined,
                                                         I was unsure of myself and uncertain about the path ahead.
-                                                        What I found at Academia O was not just an institution, 
+                                                        What I found at Academia O was not just an institution,
                                                         but a community that believed in me, supported me, and helped me grow both academically and personally.
 
-                                                            The faculty at Academia O played a tremendous role in shaping my journey. 
-                                                            They were more than instructors, 
+                                                            The faculty at Academia O played a tremendous role in shaping my journey.
+                                                            They were more than instructors,
                                                             they were mentors who took the time to
-                                                            understand my strengths, encourage my potential, 
+                                                            understand my strengths, encourage my potential,
                                                             and guide me through challenges with patience and care.
                                                             Their dedication made me feel seen as an individual,
                                                             not just another student in the classroom.
 
                                                             Beyond academics, the environment at the college fostered
                                                             confidence, discipline, and resilience. The modern resources,
-                                                            engaging programs, and vibrant campus atmosphere created countless 
+                                                            engaging programs, and vibrant campus atmosphere created countless
                                                             opportunities for me to learn and grow in ways that extended far beyond textbooks.
 
                                                             Looking back, I realize that Academia O gave me more than support,
                                                             it gave me the tools to face the world with courage and ambition.
                                                             It is a place where students are nurtured, inspired, and prepared
                                                             for the future. For anyone seeking not only quality education
-                                                                but also genuine support and personal growth, I wholeheartedly 
+                                                                but also genuine support and personal growth, I wholeheartedly
                                                                 recommend Academia O College. ”</p>
                                                     <div class="testimonial-one__client-info">
                                                         <div class="testimonial-one__rating">
@@ -455,8 +473,8 @@
                         </div>
                     </section>
                     <!--Testimonial One End-->
-        </div>
+        </div> --}}
         <!--Testimonial Two End-->
 
-       
+
 @endsection
