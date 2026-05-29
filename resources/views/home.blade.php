@@ -188,7 +188,7 @@
                         <div class="col-xl-6">
                             <div class="about-three__left">
                                 <div class="section-title text-left">
-                                    <span class="section-title__tagline">ABOUT ACADEMIA O COLLEGE</span>
+                                    <span class="section-title__tagline">ABOUT Claret Secondary School</span>
                                     <h2 class="section-title__title">Shaping minds today for a brighter tomorrow</h2>
                                 </div>
                                 <p class="about-three__text-1">
