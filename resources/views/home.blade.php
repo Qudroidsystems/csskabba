@@ -194,8 +194,19 @@
                                 <p class="about-three__text-1">
                                     Claret Secondary School, Kabba, Kogi State, Nigeria is a leading institution committed to nurturing students into responsible, knowledgeable, and morally upright citizens. Founded on strong Claretian values and a tradition of academic excellence, the school provides a holistic education that balances intellectual growth, character formation, discipline, and spiritual development.
 
-                                            At Claret Secondary School, Kabba, we believe that education goes beyond the classroom. Our mission is to create an environment where every student is encouraged to discover and develop their God-given potential. Through quality teaching, modern learning methods, and dedicated staff, we strive to equip our students with the skills and confidence needed to succeed in higher education and in life.
+
+                                </p>
+                                 <p class="about-three__text-1">
+                                            At Claret Secondary School, Kabba, we believe that education goes beyond the classroom. Our mission is to create an
+                                             environment where every student is encouraged to discover and develop their God-given potential.
+                                              Through quality teaching, modern learning methods, and dedicated staff,
+                                             we strive to equip our students with the skills and confidence needed to succeed in higher education and in life.
                                             We take pride in fostering a safe, supportive, and disciplined atmosphere where students are guided to become future leaders, innovators, and agents of positive change in society. Our curriculum is designed to promote academic excellence, critical thinking, creativity, and social responsibility, while our extracurricular activities help students build teamwork, leadership, and personal growth.
+
+                                            Claret Secondary School, Kabba, is more than just a place of learning — it is a community where faith, knowledge, and service come together to shape well-rounded individuals who will make meaningful contributions to the nation and the world.
+
+                                </p>
+                                 <p class="about-three__text-1">
 
                                             Claret Secondary School, Kabba, is more than just a place of learning — it is a community where faith, knowledge, and service come together to shape well-rounded individuals who will make meaningful contributions to the nation and the world.
 
@@ -216,7 +227,7 @@
                         <div class="col-xl-6">
                             <div class="about-three__right">
                                 <div class="about-three__img">
-                                    <img src="{{ asset('assets/assets/images/resources/logo.jpg')}}" alt="Academia O College Logo">
+                                    <img src="{{ asset('assets/assets/images/resources/logo.jpeg')}}" alt="Academia O College Logo">
                                 </div>
                             </div>
                         </div>
