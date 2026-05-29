@@ -43,13 +43,13 @@
                     </div>
                     <div class="col-xl-8 col-lg-7">
                         <div class="services-details__right">
-                            <h3 class="services-details__title-1">Claret Secondary School</h3>
+                            <h3 class="services-details__title-1">Claret Secondary School Anthem</h3>
                             <p class="services-details__text services-details__text-1">
                                 </p>
 
 
 
-                             
+
 
 
 
