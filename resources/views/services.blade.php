@@ -1,9 +1,9 @@
 @extends('layout.master')
 @section('content')
-         
 
 
-     
+
+
         <!--Page Header Start-->
         <section class="page-header">
             <div class="page-header__bg" style="background-image: url(assets/images/backgrounds/page-header-bg.jpg);">
@@ -21,16 +21,17 @@
         </section>
         <!--Page Header End-->
 
-    
+
           <!--Services Three start-->
-            <section class="services-three">
+
+          <section class="services-three">
                 <div class="container">
                     <div class="section-title text-center">
                         <span class="section-title__tagline">Our Schools</span>
                         <div class="section-title-shape">
                             <img src="{{ asset('assets/assets/images/shapes/section-title-shape-1.png')}}" alt="">
                         </div>
-                        <h2 class="section-title__title">Academia O Group of Schools</h2>
+                        <h2 class="section-title__title">Claret  Schools</h2>
                     </div>
                     <div class="row">
                         <!--services One single start-->
@@ -45,7 +46,11 @@
                                         <span class="icon-bulb-business-idea"></span>
                                     </div> --}}
                                 </div>
-                                <p class="services-one__text">Redefining the goal of education from the conventional, nurturing students of Year 7 to Year 9.</p>
+                                <p class="services-one__text">
+                                    The Claret Secondary School, Kabba, Kogi State, provides a strong foundation for academic excellence,
+                                     discipline, and character formation specially for their
+                                    junior students with dedicated teachers and a supportive learning environment for the future leaders.
+                                </p>
                                 <div class="services-one__btn">
                                     {{-- <a href="branding.html')}}" class="thm-btn services-three__btn">Read more<i
                                             class="icon-right-arrow1"></i></a> --}}
@@ -66,7 +71,12 @@
                                         <span class="icon-business-management-target"></span>
                                     </div> --}}
                                 </div>
-                                <p class="services-one__text">Using technology and modern tools with consistent science practicals to prepare Year 10 to Year 12 students for the task ahead.</p>
+                                <p class="services-one__text">
+                                    The Senior High School at Claret Secondary School, Kabba, Kogi State,
+                                     is dedicated to preparing students for academic success, leadership, and lifelong achievement through quality
+                                      teaching, discipline, and a well-rounded curriculum,
+                                     to equip learners with the knowledge, skills, and values needed to excel in higher education and beyond.
+                                </p>
                                 <div class="services-one__btn">
                                     {{-- <a href="#" class="thm-btn services-three__btn">Read more<i
                                             class="icon-right-arrow1"></i></a> --}}
@@ -74,26 +84,7 @@
                             </div>
                         </div>
                         <!--services One single End-->
-                        <!--services One single start-->
-                        <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="300ms">
-                            <div class="services-one__single">
-                                <div class="services-one__count"></div>
-                                <div class="services-one__content">
-                                    <div class="services-one__title">
-                                        <h3><a href="#">Prevarsity</a></h3>
-                                    </div>
-                                    {{-- <div class="services-one__icon">
-                                        <span class="icon-megaphone"></span>
-                                    </div> --}}
-                                </div>
-                                <p class="services-one__text">Preparing high school leavers for admission based examinations towards a brighter future in higher institution.</p>
-                                <div class="services-one__btn">
-                                    {{-- <a href="digital-solutions.html')}}" class="thm-btn services-three__btn">Read more<i
-                                            class="icon-right-arrow1"></i></a> --}}
-                                </div>
-                            </div>
-                        </div>
-                        <!--services One single End-->
+
                     </div>
                 </div>
             </section>
