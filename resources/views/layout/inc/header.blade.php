@@ -193,7 +193,7 @@
                                         <ul>
                                             <li><a href="{{ route('vision') }}">Mission & Vission</a></li>
                                             <li><a href="{{ route('anthem') }}">School Anthem</a></li>
-                                             <li ><a href="{{ route('team') }}">Staff</a>
+                                             {{-- <li ><a href="{{ route('team') }}">Staff</a> --}}
 
                                     </li>
                                         </ul>
