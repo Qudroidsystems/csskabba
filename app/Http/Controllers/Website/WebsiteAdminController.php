@@ -152,11 +152,14 @@ class WebsiteAdminController extends Controller
         $text = ['hero_title', 'hero_subtitle', 'hero_button_text', 'hero_button_link', 'intro_title', 'values_title', 'footer_about',
                  'social_facebook', 'social_instagram', 'social_x', 'social_youtube', 'social_tiktok', 'whatsapp', 'office_hours',
                  'meta_description', 'founded_year', 'primary_color', 'secondary_color', 'accent_color',
-                 'school_name', 'school_address', 'school_email', 'school_phones', 'notify_emails'];
+                 'school_name', 'school_address', 'school_email', 'school_phones', 'notify_emails',
+                 'quick1_title', 'quick1_text', 'quick2_title', 'quick2_text', 'quick3_title', 'quick3_text',
+                 'gallery_title', 'testimonials_title', 'news_title', 'faq_title', 'faq_text', 'cta_title', 'cta_text'];
         $rules = array_fill_keys($text, 'nullable|string|max:500');
         $rules = array_merge($rules, [
             'primary_color' => 'nullable|regex:/^#[0-9a-fA-F]{6}$/', 'secondary_color' => 'nullable|regex:/^#[0-9a-fA-F]{6}$/',
             'accent_color' => 'nullable|regex:/^#[0-9a-fA-F]{6}$/', 'founded_year' => 'nullable|integer|min:1800|max:' . date('Y'),
+            'app_features' => 'nullable|string|max:1000', 'topbar_links' => 'nullable|string|max:1000',
             'intro_body' => 'nullable|string|max:20000', 'admission_text' => 'nullable|string|max:20000', 'map_embed' => 'nullable|string|max:3000',
             'hero_image' => 'nullable|image|max:8192', 'intro_image' => 'nullable|image|max:8192',
             'logo' => 'nullable|image|max:4096', 'school_email' => 'nullable|email|max:150',
@@ -171,6 +174,8 @@ class WebsiteAdminController extends Controller
         // Who gets an e-mail when an application or message arrives: comma-separated, valid ones only.
         $values['notify_emails'] = collect(preg_split('/[\s,;]+/', $values['notify_emails']))
             ->filter(fn ($e) => filter_var($e, FILTER_VALIDATE_EMAIL))->unique()->implode(', ');
+        $values['app_features'] = trim((string) ($data['app_features'] ?? ''));
+        $values['topbar_links'] = trim((string) ($data['topbar_links'] ?? ''));
         $values['intro_body'] = W::clean($data['intro_body'] ?? '') ?? '';
         $values['admission_text'] = W::clean($data['admission_text'] ?? '') ?? '';
         $map = trim((string) ($data['map_embed'] ?? ''));

@@ -107,6 +107,19 @@ class WebsiteContent
         ];
     }
 
+    /** Top-bar links: "Label | /path" per line (admin setting), with the standard four as default. @return array<int,array{0:string,1:string}> */
+    public static function topbarLinks(): array
+    {
+        $raw = (string) self::get('topbar_links', "Apply | /admissions#apply\nVisit us | /contact#visit\nNews & updates | /news\nGallery | /gallery");
+        $out = [];
+        foreach (preg_split('/\R/', $raw) as $line) {
+            [$label, $url] = array_pad(array_map('trim', explode('|', $line, 2)), 2, '');
+            if ($label === '' || $url === '') continue;
+            $out[] = [$label, str_starts_with($url, '/') ? url($url) : $url];
+        }
+        return $out;
+    }
+
     /** A stored file path (relative to the public disk, or a full URL) as a URL. */
     public static function fileUrl(?string $path): ?string
     {
